@@ -1,0 +1,233 @@
+/* Fixed Background Image Section */
+.fixed-bg {
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop');
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Overlay to darken the fixed background image */
+.fixed-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 21, 41, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Bootstrap Header Customization */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Banner Carousel Styling */
+.banner-carousel .item {
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.banner-carousel .item .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+}
+.banner-carousel .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+/* General Section Styling */
+.section-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+/* Card Styling & Hover Effect */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation for hover */
+}
+
+/* Image Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+.card-img-top {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+}
+
+/* Button Styling & Hover Effect */
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animation for hover */
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Testimonial Section */
+.testimonial-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    text-align: center;
+}
+.testimonial-card img {
+    width: 80px !important;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+.testimonial-card .quote {
+    font-style: italic;
+    color: #6c757d;
+}
+.testimonial-card .author {
+    font-weight: bold;
+    margin-top: 15px;
+}
+/* Style for the added quote icon */
+.testimonial-card .fa-quote-left {
+    font-size: 2.5rem;
+    color: #007bff;
+    opacity: 0.2;
+    margin-bottom: 15px;
+}
+
+/* Footer social icons style */
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #007bff; /* Highlight color on hover */
+}
+
+/* Page Header */
+.page-header {
+    padding: 80px 0;
+    background-color: #0d2740;
+    color: white;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-weight: 700;
+}
+
+/* Card Styling & Hover Effect */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation for hover */
+}
+
+/* Image Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+.card-img-top {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+}
+
+/* Button Styling & Hover Effect */
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Main course info styles */
+.course-title {
+    font-weight: 700;
+}
+.course-main-image {
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Course features section with icons */
+.course-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.course-features li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.course-features i {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+}
+
+/* Button Styling & Hover Effect */
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 35px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Card styling for carousel */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
